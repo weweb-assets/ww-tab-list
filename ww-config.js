@@ -12,23 +12,7 @@ export default {
     properties: {
         tabTriggerElements: {
             hidden: true,
-            defaultValue: [
-                {
-                    isWwObject: true,
-                    type: 'tab-trigger',
-                    content: { name: 'tab1' },
-                },
-                {
-                    isWwObject: true,
-                    type: 'tab-trigger',
-                    content: { name: 'tab2' },
-                },
-                {
-                    isWwObject: true,
-                    type: 'tab-trigger',
-                    content: { name: 'tab3' },
-                }
-            ],
+            defaultValue: [],
         },
     },
 };
