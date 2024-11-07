@@ -3,9 +3,9 @@ export default {
         label: {
             en: 'Tab list',
         },
-        icon: 'slider',         // 📛 TODO
+        icon: 'list',
         bubble: {
-            icon: 'slider',     // 📛 TODO
+            icon: 'list',
         },
         customSettingsPropertiesOrder: [],
     },
