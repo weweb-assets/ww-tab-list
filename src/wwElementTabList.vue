@@ -3,6 +3,9 @@
 </template>
 
 <script>
+/* wwEditor:start */
+import useTabContentHint from './editor/useTabContentHint';
+/* wwEditor:end */
 
 export default {
     props: {
@@ -14,7 +17,11 @@ export default {
         wwElementState: { type: Object, required: true },
     },
     emits: [],
-    setup(props) {},
+    setup(props, { emit }) {
+        /* wwEditor:start */
+        useTabContentHint(emit);
+        /* wwEditor:end */
+    },
     data() {
         return {};
     },

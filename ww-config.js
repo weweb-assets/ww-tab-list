@@ -8,6 +8,9 @@ export default {
             icon: 'list',
         },
         customSettingsPropertiesOrder: [],
+        hint: (_, sidepanelContent) => {
+            return sidepanelContent.missingTabOrField;
+        },
     },
     inherit: {
       type: "ww-layout",
